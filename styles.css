@@ -8,13 +8,16 @@
 .item {
 	height: 50px;
 	width: 50px;
+	
+}
+.holder div:first-child {
 	background-color: green;
+	
 }
-.red {
-	background:red;
-	order: 6;
+.holder div:nth-child(2){
+	background: red;
+	
 }
-.blue {
+.holder div:last-child{
 	background: blue;
-	order: 7;
 }
