@@ -1,25 +1,20 @@
 
 /* Your CSS Code here. */
-.container{
+.holder {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	justify-content: space-between; 
 }
-.green{
-	width:100px;
-	height:100px;
-	background-color:green;
-	flex: 4;
+.item {
+	height: 50px;
+	width: 50px;
+	background-color: green;
 }
-.red{
-	width:100px;
-	height:100px;
-	background-color:red;
-	flex: 2;
+.red {
+	background:red;
+	order: 6;
 }
-.blue{
-	width:100px;
-	height:100px;
-	background-color:blue;
-	flex: 1;
+.blue {
+	background: blue;
+	order: 7;
 }
